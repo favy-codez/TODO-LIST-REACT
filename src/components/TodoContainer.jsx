@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import TodoItem from "./TodoItem";
 
-function TodoContainer(props) {
+function TodoContainer() {
   // use the useState hook to create an empty array to populate the data from the local storage into 
   //the array 
   const [todoItems, setTodoItem] = useState([]);
