@@ -5,6 +5,7 @@ import TodoContainer from "./components/TodoContainer";
 
 function App() {
   return <div className="App">
+    {/* imported the components, so they can be displayed on the UI */}
     <Navbar />
     <AddTodo/>
     <TodoContainer/>
