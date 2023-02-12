@@ -25,7 +25,7 @@ function AddTodo() {
         <div className='addTodo'>
             <form onSubmit={addTodo}>
                 {/* used the onchange event handler to set the value of the todo text */}
-                <input type="text" onChange={(e) => setTodoText(e.target.value)} placeholder='Enter Task...' id="" />
+                <input type="text" onChange={(e) => setTodoText(e.target.value)} placeholder='Enter Task...' id="" required />
                 <input type="submit" value="Add" />
             </form>
         </div>
